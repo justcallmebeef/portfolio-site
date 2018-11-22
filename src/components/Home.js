@@ -3,7 +3,12 @@ import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/Home.css'
 
 const Home = () => {
     return (
-        <div class="parallax"></div>
+        <div className="parallaxOne">
+        <div className="nameHolder">
+        <h1>Bethany Mitch</h1>
+        <h2>Full-Stack Software Engineer</h2>
+        </div>
+        </div>
     )
 }
 

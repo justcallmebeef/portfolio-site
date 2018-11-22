@@ -1,0 +1,41 @@
+.container{
+    background-color: #FA8072;
+}
+
+.projects {
+    height: 500px;
+    background-color: #FA8072;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: #333333;
+}
+
+.projectOne {
+    width: 300px; 
+    height: 300px;
+    background-color: white;
+}
+
+.projectTwo {
+    width: 300px; 
+    height: 300px;
+    background-color: white; 
+}
+
+.projectThree {
+    width: 300px; 
+    height: 300px;
+    background-color: white; 
+}
+
+  /* dark turquise #00CED1
+light sea green #20B2AA
+salmon #FA8072
+dark gray #333333
+teal #008080
+tomato #FF6347 */

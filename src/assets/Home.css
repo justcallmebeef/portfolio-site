@@ -1,4 +1,4 @@
-.parallax { 
+.parallaxOne { 
     /* The image used */
     background-image: url("./openComp.jpg");
 
@@ -10,11 +10,27 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
-.parallax2 { 
+.nameHolder {
+    display: flex;
+    align-self: center;
+    flex-direction: column; 
+    margin-left: 2em; 
+}
+
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #333333;
+}
+
+.parallaxTwo { 
     /* The image used */
-    background-image: url("./Screen\ Shot\ 2018-11-21\ at\ 11.19.27\ PM.png");
+    background-image: url("Screen\ Shot\ 2018-11-22\ at\ 2.00.38\ PM.png");
 
     /* Set a specific height */
     height: 500px;

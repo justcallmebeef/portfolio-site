@@ -1,0 +1,44 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20B2AA;
+    font-family: 'Acme', sans-serif;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #FFF2B4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Niramit', sans-serif;
+}
+
+ul.topnav li a:hover {background-color: #008080;}
+
+ul.topnav li.right {float: right;}
+
+.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+/* dark turquise #00CED1
+light sea green #20B2AA
+salmon #FA8072
+dark gray #333333
+teal #008080
+tomato #FF6347 */
