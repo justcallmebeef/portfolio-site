@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/Project.css'
 
-const Home = () => {
+const Project = () => {
     return (
         <Fragment>
         <div id="projects" className="projects">
@@ -16,4 +16,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Project

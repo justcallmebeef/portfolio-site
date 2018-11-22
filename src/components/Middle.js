@@ -1,10 +1,11 @@
 import React from 'react'
 import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/Home.css'
 
-const Home = () => {
+const Middle = () => {
     return (
-        <div id="about" class="parallaxTwo"></div>
+        <div className="parallaxThree">
+        </div>
     )
 }
 
-export default Home
+export default Middle
