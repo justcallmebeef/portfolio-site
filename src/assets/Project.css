@@ -1,10 +1,6 @@
-.container{
-    background-color: #FA8072;
-}
-
 .projects {
     height: 500px;
-    background-color: #FA8072;
+    background-color: #333333;
     display: flex; 
     flex-direction: row; 
     justify-content: space-around;
@@ -12,7 +8,7 @@
 }
 
 h1 {
-    color: #333333;
+    color: #FA8072;
 }
 
 .projectOne {

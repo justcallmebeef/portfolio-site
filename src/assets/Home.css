@@ -20,14 +20,6 @@
     margin-left: 2em; 
 }
 
-h1 {
-    color: #333333;
-}
-
-h2 {
-    color: #333333;
-}
-
 .parallaxTwo { 
     /* The image used */
     background-image: url("Screen\ Shot\ 2018-11-22\ at\ 2.00.38\ PM.png");
@@ -62,4 +54,12 @@ h2 {
     .parallax {
         background-attachment: scroll;
     }
+}
+
+.name {
+    color: #333333;
+}
+
+h2 {
+    color: #333333;
 }

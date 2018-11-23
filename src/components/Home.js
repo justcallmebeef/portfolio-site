@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="parallaxOne">
         <div className="nameHolder">
-        <h1>Bethany Mitch</h1>
+        <h1 className="name">Bethany Mitch</h1>
         <h2>Full-Stack Software Engineer</h2>
         </div>
         </div>
