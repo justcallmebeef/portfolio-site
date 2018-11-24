@@ -51,7 +51,13 @@
 }
 
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallaxOne {
+        background-attachment: scroll;
+    }
+    .parallaxTwo {
+        background-attachment: scroll;
+    }
+    .parallaxThree {
         background-attachment: scroll;
     }
 }
