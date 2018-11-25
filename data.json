@@ -8,16 +8,14 @@
     {
         "firstname": "Bethany", 
         "lastname": "Mitch", 
-        "nickname": "Beef",
         "origin": "Wisconsin",
         "status": "Full-Stack Software Engineer", 
         "hobbies": {
-            "sports": ["rock climbing", "ultimate frisbee", "mountain biking", "vollyeball"],
+            "sports": ["ultimate frisbee", "rock climbing", "mountain biking", "vollyeball"],
             "leisure": ["reading", "hammocking", "writing"],
             "other": "travel" 
         }, 
-        "over-used-code": "div city", 
-        "future-learnings": ["IoT", "wearables"]
+        "fun-fact": "My nickname is Beef."
     }
 ]
 

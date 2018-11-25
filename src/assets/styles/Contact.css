@@ -1,0 +1,15 @@
+.contact {
+    background-color: #FA8072;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: #20B2AA;
+    bottom: 0; 
+    width: 100%;
+}
+
+.contact {
+    color: #333333;
+    font-family: 'Niramit', sans-serif;
+}

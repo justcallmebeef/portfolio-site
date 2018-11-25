@@ -1,0 +1,71 @@
+.parallaxOne { 
+    /* The image used */
+    background-image: url("https://www.sulfateqbv.com/wp-content/uploads/2018/07/rawpixel-558599-unsplash.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.nameHolder {
+    display: flex;
+    align-self: center;
+    flex-direction: column; 
+    margin-left: 2em; 
+}
+
+.parallaxTwo { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=1052&q=80");
+
+    /* Set a specific height */
+    height: 500px;
+    width: 100vw; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxThree { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-0.3.5&s=ac993f30c67ed97ba75588ef323aabd5&auto=format&fit=crop&w=1053&q=80");
+
+    /* Set a specific height */
+    height: 500px;
+    width: 100vw; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallaxOne {
+        background-attachment: scroll;
+    }
+    .parallaxTwo {
+        background-attachment: scroll;
+    }
+    .parallaxThree {
+        background-attachment: scroll;
+    }
+}
+
+.name {
+    color: #333333;
+}
+
+.status {
+    color: #333333;
+}

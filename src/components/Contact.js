@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
-import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/Contact.css'
+import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/styles/Contact.css'
 
 const Contact = () => {
     return (
         <Fragment>
         <div id="contact" className="contact">
-            <p>Contact</p>
+            <p className="contact">Email: bethanymitch10@gmail.com || GitHub: github.com/justcallmebeef || Phone: (715) 688-9727</p>
         </div>
         </Fragment>
     )

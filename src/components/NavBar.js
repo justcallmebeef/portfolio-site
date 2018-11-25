@@ -1,7 +1,7 @@
 import React from 'react'
-import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/NavBar.css'
+import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/styles/NavBar.css'
 
-const Home = () => {
+const NavBar = () => {
     return (
         <div>
         <nav>
@@ -17,4 +17,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default NavBar
