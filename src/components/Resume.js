@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/styles/Resume.css'
 
 const Resume = () => {
     return (

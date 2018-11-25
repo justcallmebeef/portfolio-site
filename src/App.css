@@ -1,3 +1,262 @@
 body {
   font-family: 'Niramit', sans-serif;
 }
+
+/* Adding all css here because relative paths are not working */
+
+/* About.css  */
+.about { 
+  height: 500px;
+  background-color: #333333;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section {
+  border: #FA8072 3px solid; 
+  padding: 2em;
+}
+
+h2 {
+  color: #FA8072
+}
+
+p {
+  color: #FA8072
+}
+
+/* Contact.css */
+
+.contact {
+  background-color: #FA8072;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  background-color: #20B2AA;
+  bottom: 0; 
+  width: 100%;
+}
+
+.contact {
+  color: #333333;
+  font-family: 'Niramit', sans-serif;
+}
+
+/* Home.css */
+
+.parallaxOne { 
+  /* The image used */
+  background-image: url("https://www.sulfateqbv.com/wp-content/uploads/2018/07/rawpixel-558599-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.nameHolder {
+  display: flex;
+  align-self: center;
+  flex-direction: column; 
+  margin-left: 2em; 
+}
+
+.parallaxTwo { 
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=1052&q=80");
+
+  /* Set a specific height */
+  height: 500px;
+  width: 100vw; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxThree { 
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-0.3.5&s=ac993f30c67ed97ba75588ef323aabd5&auto=format&fit=crop&w=1053&q=80");
+
+  /* Set a specific height */
+  height: 500px;
+  width: 100vw; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallaxOne {
+      background-attachment: scroll;
+  }
+  .parallaxTwo {
+      background-attachment: scroll;
+  }
+  .parallaxThree {
+      background-attachment: scroll;
+  }
+}
+
+.name {
+  color: #333333;
+}
+
+.status {
+  color: #333333;
+}
+
+/* Navbar.css */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #20B2AA;
+  font-family: 'Acme', sans-serif;
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Niramit', sans-serif;
+}
+
+ul.topnav li a:hover {background-color: #008080;}
+
+ul.topnav li.right {float: right;}
+
+.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px){
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* dark turquise #00CED1
+light sea green #20B2AA
+salmon #FA8072
+dark gray #333333
+teal #008080
+tomato #FF6347 */
+
+/* Project.css */
+
+.projects {
+  height: 500px;
+  background-color: #333333;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 94%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #FA8072; 
+} 
+
+#projectDesc {
+  color: #FA8072;
+}
+
+/* dark turquise #00CED1
+light sea green #20B2AA
+salmon #FA8072
+dark gray #333333
+teal #008080
+tomato #FF6347 */
+
+/* Resume.css */
+
+.resume {
+  height: 500px;
+  background-color: #333333;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  color: #FA8072;
+}
+
+img {
+  border: 1px solid #333333; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.resumeButton {
+  background-color: #FA8072;
+  color: #333333;
+  height: 3em;
+  width: 15em;
+  border-radius: 4px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.resumeSection {
+  border: #FA8072 3px solid; 
+  padding: 2em;
+  width: 40%;
+}
+
+li {
+  color: #FA8072;
+}

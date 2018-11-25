@@ -1,5 +1,4 @@
 import React from 'react'
-import '/Users/bethanymitch/portfolio-site/portfolio/src/assets/styles/NavBar.css'
 
 const NavBar = () => {
     return (
